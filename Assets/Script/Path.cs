@@ -6,6 +6,15 @@ public class Path : MonoBehaviour
   // Start is called once before the first execution of Update after the MonoBehaviour is created
   public GameObject[] Waypoints;
 
+  public Vector3 WaypointsPositions(int index)
+  {
+    return Waypoints[index].transform.position;
+  }
+
+  public int WaypointsLength()
+  {
+    return Waypoints.Length;
+  }
 
 
   // void Start()
