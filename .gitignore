@@ -65,6 +65,9 @@ crashlytics-build.properties
 [Aa]ssets/[Ss]treamingAssets/aa.meta
 [Aa]ssets/[Ss]treamingAssets/aa/*
 
+# Unity Version Control (Plastic SCM)
+.plastic/
+
 # OS generated files
 .DS_Store
 .DS_Store?
