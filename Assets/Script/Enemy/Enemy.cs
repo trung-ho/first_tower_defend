@@ -12,7 +12,7 @@ public class Enemy : MonoBehaviour
 
     void Awake()
     {
-        currentPath = GameObject.Find("Path_1").GetComponent<Path>();
+      currentPath = GameObject.Find("Path").GetComponent<Path>();
     }
     // void Start()
     // {
